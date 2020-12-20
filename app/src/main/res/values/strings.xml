@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Quizzadeira</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ETLoginEmail">E-mail</string>
+    <string name="ETLoginPassword">Password</string>
+    <string name="BTLogin">Login</string>
+    <string name="BTRegister">Register</string>
+    <string name="ETRegisterName">Name</string>
+    <string name="ETRegisterEmail">Email</string>
+    <string name="ETRegisterPassword">Password</string>
+    <string name="ETRegisterConfirm">Confirm Password</string>
+    <string name="BTRegisterRegister">Register</string>
+    <string name="BNHome">Home</string>
+    <string name="BNProfile">Profile</string>
+    <string name="BNGame">Game</string>
+    <string name="BNRanking">Ranking</string>
 </resources>

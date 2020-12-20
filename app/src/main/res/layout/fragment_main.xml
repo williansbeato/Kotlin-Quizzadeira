@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.mainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="176dp"
+            android:layout_marginEnd="177dp"
+            android:layout_marginBottom="387dp"
+            android:text="Home"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btGame"
+            android:layout_width="131dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="112dp"
+            android:text="Game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/btRanking"
+            android:layout_width="115dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="56dp"
+            android:text="Ranking"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btGame" />
+
+        <Button
+            android:id="@+id/btProfile"
+            android:layout_width="131dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="104dp"
+            android:text="Profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btGame" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
