@@ -25,17 +25,15 @@ class mainFragment : Fragment(), View.OnClickListener {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
         view.findViewById<Button>(R.id.btGame).setOnClickListener(this)
-        view.findViewById<Button>(R.id.btProfile).setOnClickListener(this)
+        view.findViewById<Button>(R.id.btAbout).setOnClickListener(this)
         view.findViewById<Button>(R.id.btRanking).setOnClickListener(this)
     }
 
-
     override fun onClick(v: View?){
         when(v!!.id){
-            R.id.btGame -> navController!!.navigate(R.id.action_mainFragment_to_gameFragment)
-            R.id.btProfile -> navController!!.navigate(R.id.action_mainFragment_to_profileFragment)
-            R.id.btRanking -> navController!!.navigate(R.id.action_mainFragment_to_rankingFragment)
+            R.id.btGame -> navController.navigate(R.id.action_mainFragment_to_difficultyFragment)
+            R.id.btAbout -> navController.navigate(R.id.action_mainFragment_to_aboutFragment)
+            R.id.btRanking -> navController.navigate(R.id.action_mainFragment_to_rankingFragment)
         }
     }
-
 }

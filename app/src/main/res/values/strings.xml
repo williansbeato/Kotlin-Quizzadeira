@@ -1,18 +1,42 @@
 <resources>
-    <string name="app_name">Quizzadeira</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="ETLoginEmail">E-mail</string>
-    <string name="ETLoginPassword">Password</string>
-    <string name="BTLogin">Login</string>
-    <string name="BTRegister">Register</string>
-    <string name="ETRegisterName">Name</string>
-    <string name="ETRegisterEmail">Email</string>
-    <string name="ETRegisterPassword">Password</string>
-    <string name="ETRegisterConfirm">Confirm Password</string>
-    <string name="BTRegisterRegister">Register</string>
-    <string name="BNHome">Home</string>
-    <string name="BNProfile">Profile</string>
-    <string name="BNGame">Game</string>
-    <string name="BNRanking">Ranking</string>
+    <string name="app_name">Quizzadeira</string>
+    <string name="quizzadeira">Quizzadeira</string>
+    <string name="player">Player</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="game">Game</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="ranking">Ranking</string>
+    <string name="ok">Ok</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="correct">Correct</string>
+    <string name="play">Play</string>
+    <string name="random">Random</string>
+    <string name="goNext">Go Next</string>
+    <string name="next">Next</string>
+    <string name="playAgain">Play Again</string>
+    <string name="endgame">End Game</string>
+    <string name="loading">Loading</string>
+    <string name="report">Report</string>
+    <string name="endScore">Score: </string>
+    <string name="score">Score</string>
+    <string name="logout">Logout</string>
+    <string name="loginWrong">Email or Password is wrong</string>
+    <string name="emptyField">A Field is Empty</string>
+    <string name="wrongPassword">Wrong Password</string>
+    <string name="successfullyRegistered">Successfully Registered</string>
+    <string name="yourScore">Your Score:</string>
+    <string name="selectAnswer">Select a Answer</string>
+    <string name="gameRunning">Game Running</string>
+    <string name="selectDifficultyCategory">Select Difficulty and Category</string>
+
 </resources>

@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+<!--    <item-->
+<!--        android:id="@+id/gameFragment"-->
+<!--        android:icon="@drawable/catu"-->
+<!--        android:title="play" />-->
+
     <item
         android:id="@+id/mainFragment"
-        android:icon="?attr/actionModeSelectAllDrawable"
-        android:title="@string/BNHome" />
+        android:icon="@drawable/house"
+        android:title="@string/home" />
     <item
-        android:id="@+id/gameFragment"
-        android:icon="@android:drawable/ic_menu_myplaces"
-        android:title="@string/BNGame" />
-    <item
-        android:id="@+id/profileFragment"
-        android:icon="@android:drawable/ic_menu_delete"
-        android:title="@string/BNProfile" />
+        android:id="@+id/difficultyFragment"
+        android:icon="@drawable/console"
+        android:title="@string/game" />
     <item
         android:id="@+id/rankingFragment"
-        android:icon="@android:drawable/btn_star"
-        android:title="@string/BNRanking" />
+        android:icon="@drawable/ranking"
+        android:title="@string/ranking" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/info"
+        android:title="@string/about" />
 </menu>
