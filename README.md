@@ -45,7 +45,7 @@
 
 </div>
 
-# 🐱‍🏍Features:
+# 🐱‍🏍Features
 	
 * Register
 * Login
