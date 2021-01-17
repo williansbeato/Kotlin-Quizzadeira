@@ -57,7 +57,6 @@
 
 * Minimum SDK level 21
 * Kotlin
-* MVVM
 * Retrofit 
 * Android Architecture Components
 * Fragments
